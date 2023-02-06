@@ -1,0 +1,10 @@
+# Start Elasticsearch
+- name: Starting Elasticsearch
+  service: name=elasticsearch state=restarted
+
+# - name: Starting Kibana
+#   service: name=kibana state=restarted
+
+# - name: Starting logstash
+#   service: name=logstash state=restarted
+

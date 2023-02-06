@@ -1,0 +1,4 @@
+- name: Starting logstash
+  service: 
+    name: logstash 
+    state: start
